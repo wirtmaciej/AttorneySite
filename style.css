@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  box-sizing: border-box; }
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  padding: 20px; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 24.99%; }
+
+.col-4 {
+  width: 33.32%; }
+
+.col-5 {
+  width: 41.65%; }
+
+.col-6 {
+  width: 49.98%; }
+
+.col-7 {
+  width: 58.31%; }
+
+.col-8 {
+  width: 66.64%; }
+
+.col-9 {
+  width: 74.97%; }
+
+.col-10 {
+  width: 83.3%; }
+
+.col-11 {
+  width: 91.63%; }
+
+.col-12 {
+  width: 99.96%; }
+
+.col-offset-0 {
+  margin-left: 0%; }
+
+.col-offset-1 {
+  margin-left: 8.33%; }
+
+.col-offset-2 {
+  margin-left: 16.66%; }
+
+.col-offset-3 {
+  margin-left: 24.99%; }
+
+.col-offset-4 {
+  margin-left: 33.32%; }
+
+.col-offset-5 {
+  margin-left: 41.65%; }
+
+.col-offset-6 {
+  margin-left: 49.98%; }
+
+.col-offset-7 {
+  margin-left: 58.31%; }
+
+.col-offset-8 {
+  margin-left: 66.64%; }
+
+.col-offset-9 {
+  margin-left: 74.97%; }
+
+.col-offset-10 {
+  margin-left: 83.3%; }
+
+.col-offset-11 {
+  margin-left: 91.63%; }
+
+h1, h2, h3 {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 22px;
+  color: #fff;
+  text-shadow: 3px 3px #000; }
+
+h2 {
+  font-size: 15px;
+  color: #000;
+  line-height: 50px; }
+
+h3 {
+  color: #fff;
+  font-size: 22px;
+  margin: 10 auto;
+  line-height: 50px; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.container, .hero {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+section > .container, section > .hero {
+  margin: 50px auto;
+  text-align: center; }
+
+nav {
+  background-color: #313332;
+  height: 50px; }
+  nav img {
+    padding: 10px 0;
+    margin: 0 20px; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    float: right; }
+  nav li {
+    display: inline-block; }
+  nav a {
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block; }
+
+.hero {
+  width: 100%;
+  height: 220px;
+  padding: 60px 0;
+  background-image: url("https://images.pexels.com/photos/27597/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+.slogan {
+  background-color: rgba(49, 51, 50, 0.7);
+  max-width: 800px;
+  float: right;
+  padding: 50px; }
+
+.advantages .icon {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25%;
+  cursor: pointer; }
+.advantages .bl, .advantages .re {
+  background-color: #fff;
+  color: #313332;
+  border: #313332 solid 1px; }
+.advantages .cl {
+  background-color: #fff;
+  color: #024de2;
+  border: #024de2 solid 1px; }
+.advantages p {
+  color: #313332;
+  padding: 10px;
+  line-height: 20px;
+  letter-spacing: 1px; }
+.advantages .blue {
+  color: #024de2; }
+
+.when h1 {
+  color: #000;
+  text-shadow: none;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: underline overline;
+  display: inline-block; }
+.when .p1 {
+  color: #313332;
+  padding: 10px;
+  line-height: 20px;
+  letter-spacing: 1px; }
+
+.gallery2 {
+  height: 150px;
+  padding: 0;
+  position: relative; }
+  .gallery2 img {
+    max-height: 100%;
+    height: 150px;
+    max-width: 100%;
+    display: block; }
+  .gallery2 .layer2 {
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%; }
+  .gallery2 .fa {
+    font-size: 20px;
+    color: #313332;
+    margin: 50px 10px;
+    padding: 5px;
+    border-radius: 25%;
+    background-color: #fff;
+    text-align: center;
+    display: none; }
+
+.gallery1 {
+  height: 150px;
+  padding: 0;
+  position: relative; }
+  .gallery1 img {
+    max-height: 100%;
+    height: 150px;
+    max-width: 100%;
+    width: 100%;
+    display: block; }
+  .gallery1 .layer1 {
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%; }
+  .gallery1 .fa {
+    font-size: 20px;
+    color: #313332;
+    margin: 50px 10px;
+    padding: 5px;
+    border-radius: 25%;
+    background-color: #fff;
+    text-align: center;
+    display: none; }
+
+.team img {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 50%;
+  text-align: center; }
+.team h2 {
+  color: #313332;
+  font-weight: normal;
+  margin: 0px auto;
+  padding: 0;
+  text-transform: capitalize;
+  text-align: center; }
+
+.picture0, .picture1, .picture2 {
+  height: auto;
+  padding: 0;
+  background-color: #313332; }
+
+.picture1 {
+  height: auto;
+  margin: 0;
+  padding: 10px 0 0 0; }
+  .picture1 img {
+    height: 220px;
+    width: 200px;
+    float: right;
+    display: block;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; }
+
+.picture2 {
+  height: auto;
+  padding: 0; }
+  .picture2 h3 {
+    padding: 0;
+    line-height: 50px; }
+  .picture2 .p2 {
+    color: #fff;
+    font-size: 13px;
+    column-count: 2;
+    padding: 20px;
+    line-height: 20px;
+    letter-spacing: 1px; }
+
+.numbers {
+  border-top: #000 solid 1px;
+  border-bottom: #000 solid 1px; }
+
+.numbers1 h2 {
+  font-size: 26px;
+  margin: 0; }
+.numbers1 p {
+  color: #024de2;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0; }
+
+.footer {
+  background-color: #313332;
+  color: #fff; }
+  .footer .copy {
+    background-color: black;
+    color: #fff;
+    height: 50px;
+    text-align: center; }
+    .footer .copy p {
+      text-align: center;
+      font-size: 9px;
+      line-height: 10px;
+      letter-spacing: 1px;
+      margin: 0; }
+  .footer h2 {
+    color: #fff; }
+  .footer p {
+    font-size: 9px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    margin: 10px 0; }
+  .footer .parbold {
+    font-weight: bold;
+    text-transform: uppercase; }
+  .footer .contact div {
+    float: left;
+    min-height: 1px;
+    padding: 5px; }
+  .footer .icon-btn {
+    height: 28px;
+    width: 28px;
+    border: 0;
+    color: #fff;
+    border-radius: 0%;
+    margin: 10;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #024de2; }
+  .footer .twitter {
+    color: #fff; }
+  .footer .facebook {
+    color: #fff; }
+  .footer .google-plus {
+    color: #fff; }
+  .footer .instagram {
+    color: #fff; }
+  .footer .github {
+    color: #fff; }
+
+@media (max-width: 767px) {
+  .container, .hero {
+    padding: 0%;
+    text-align: center; }
+
+  .col-s-1 {
+    width: 8.33%; }
+
+  .col-s-2 {
+    width: 16.66%; }
+
+  .col-s-3 {
+    width: 24.99%; }
+
+  .col-s-4 {
+    width: 33.32%; }
+
+  .col-s-5 {
+    width: 41.65%; }
+
+  .col-s-6 {
+    width: 49.98%; }
+
+  .col-s-7 {
+    width: 58.31%; }
+
+  .col-s-8 {
+    width: 66.64%; }
+
+  .col-s-9 {
+    width: 74.97%; }
+
+  .col-s-10 {
+    width: 83.3%; }
+
+  .col-s-11 {
+    width: 91.63%; }
+
+  .col-s-12 {
+    width: 99.96%; }
+
+  header .container, header .hero {
+    height: 35vh; }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    float: none;
+    width: 100%; }
+  nav li {
+    display: block;
+    width: 100%;
+    padding: 0; }
+
+  .hero {
+    height: 35vh;
+    padding: 0;
+    margin: 0; }
+
+  .slogan {
+    height: 10vh; }
+    .slogan h1 {
+      font-size: 2.5vh;
+      margin: 0;
+      padding: 1vh; }
+
+  .advantages .col-2 {
+    float: none;
+    width: 100%;
+    margin-left: 0; }
+
+  .when {
+    margin: 0;
+    float: none;
+    width: 100%; }
+    .when h1 {
+      font-size: 3vh; }
+
+  .gallery0 .col-s-12 {
+    height: 50vh;
+    margin: 0 auto; }
+    .gallery0 .col-s-12 img {
+      display: block;
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
+  .gallery0 .col-s-6 {
+    height: 50vh;
+    margin: 0 auto; }
+    .gallery0 .col-s-6 img {
+      display: block;
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
+  .gallery0 .layer1 .fa {
+    display: inline-block; }
+  .gallery0 .layer2 .fa {
+    display: inline-block; }
+
+  .team .col-s-6 {
+    margin: 0;
+    padding: 2%; }
+    .team .col-s-6 img {
+      height: 40vh;
+      width: 40vw; }
+    .team .col-s-6 h2 {
+      font-size: 2.5vh; }
+
+  .picture0 .col-s-12, .picture1 .col-s-12, .picture2 .col-s-12 {
+    margin: 0 auto;
+    padding: 2%;
+    display: block;
+    float: none; }
+
+  .picture1 {
+    height: auto;
+    margin: 0;
+    padding: 2%; }
+    .picture1 img {
+      height: 35vh;
+      width: 30vw;
+      float: none;
+      display: inline-block; }
+
+  .picture2 .p2 {
+    column-count: 1;
+    font-size: 2.5vh; }
+
+  .numbers .col-s-6 {
+    margin: 0;
+    padding: 2%;
+    border-top: none;
+    border-bottom: none; }
+
+  .numbers1 h2 {
+    font-size: 5vh; }
+  .numbers1 p {
+    font-size: 2vh; }
+
+  .footer .col-s-12 {
+    margin: 0 auto;
+    padding: 2%;
+    display: block;
+    float: none; }
+  .footer h2 {
+    font-size: 3vh; }
+  .footer p {
+    font-size: 2vh; }
+  .footer .copy p {
+    font-size: 1.5vh; }
+  .footer .col-s-6 p {
+    text-align: left;
+    padding-left: 3vw; }
+  .footer .col-s-6 .parbold {
+    text-align: right;
+    padding-right: 3vw; } }
+@media (min-width: 1100px) {
+  nav li:hover {
+    background-color: #707271; }
+
+  .advantages .bl:hover, .advantages .re:hover {
+    background-color: #313332;
+    color: #fff; }
+  .advantages .cl:hover {
+    background-color: #024de2;
+    color: #fff; }
+
+  .gallery1:hover .fa {
+    display: inline-block; }
+  .gallery1 .layer1:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer; }
+
+  .gallery2:hover .fa {
+    display: inline-block; }
+  .gallery2 .layer2:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer; }
+
+  .footer .icon-btn:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -webkit-backface-visibility: hidden; }
+  .footer .twitter:hover {
+    background-color: #fff;
+    color: #024de2; }
+  .footer .facebook:hover {
+    background-color: #fff;
+    color: #fff; }
+  .footer .google-plus:hover {
+    background-color: #fff;
+    color: #fff; }
+  .footer .instagram:hover {
+    background-color: #fff;
+    color: #fff; }
+  .footer .github:hover {
+    background-color: #fff;
+    color: #fff; } }
+
+/*# sourceMappingURL=style.css.map */
